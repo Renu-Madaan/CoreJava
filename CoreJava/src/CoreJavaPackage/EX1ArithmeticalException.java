@@ -11,15 +11,21 @@ public class EX1ArithmeticalException {
 		            int result = numerator / denominator;
 		            System.out.println("Result: " + result); // This line will not be reached
 		        } catch (ArithmeticException e) {
-		            System.err.println("Error: Division by zero is not allowed.");
-		            System.err.println("Exception details: " + e.getMessage());
+		        	e.printStackTrace();
+		            //System.err.println("Error: Division by zero is not allowed.");
+		            //System.err.println("Exception details: " + e.getMessage());
 		        }
+		        finally
+		        {
 		        
-		        System.out.println("Program continues after exception handling.");
+		        System.out.println("Program continues after exception handling/ we are inside the finaly block.");
+		        
+		        //observe that the print statement inside the finally block got executed, even after the exception is not thrown
+		        
 		    }
 		
 
-	}
+	}}
 //An arithmetic exception in java is a Runtime exception present in the java.lang package. 
 //JVM throws Arithmetic Exception when a wrong mathematical expression
 
