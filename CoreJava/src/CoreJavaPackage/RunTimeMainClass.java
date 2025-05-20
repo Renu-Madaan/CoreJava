@@ -68,18 +68,13 @@ public class RunTimeMainClass {
 			    p1.sum(2, 3);
 			    p1.sum(1, 23, 80);
 			    
-			    
-
-			    //IllegalArgument
-			        TestIllegalArgument obj = new TestIllegalArgument();
-			        
-			        // Test with valid and invalid values
-			        obj.myMethod(10);  // Valid case
-
-			        obj.myMethod(-5);  // This will throw IllegalArgumentException
+			    //Java provides a default constructor if you don't define any.
+			    	 DefaultConstructor myCar = new  DefaultConstructor();  // Constructor is called here
 			    }
+			
 			    
 			    
+	
 
 			  }
 		
