@@ -69,7 +69,15 @@ public class RunTimeMainClass {
 			    p1.sum(1, 23, 80);
 			    
 			    
-			    
+
+			    //IllegalArgument
+			        TestIllegalArgument obj = new TestIllegalArgument();
+			        
+			        // Test with valid and invalid values
+			        obj.myMethod(10);  // Valid case
+
+			        obj.myMethod(-5);  // This will throw IllegalArgumentException
+			    }
 			    
 			    
 
@@ -80,4 +88,4 @@ public class RunTimeMainClass {
 		
 
 
-}
+
