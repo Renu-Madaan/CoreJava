@@ -1,29 +1,36 @@
 package CoreJavaPackage;
 
 public class StaticVariablePractice {
-	public static String fullName;
-	
-	public String getFullName() {
-		String firstname = "Hamesh";
+	public static String fathername = null;
+
+	public static void getFullName1() {
+		String firstname = "Tamanna";
 		String lastname = "Madaan";
 
 		String fullName = firstname + " " + lastname;
 
-		System.out.println("Full Name: " + fullName);
-		return fullName;
+		fathername = fullName;
+		System.out.println(fathername);
 	}
-	
-	public void  getFullName2() {
-		System.out.println("Second method" +fullName);
-		;
-		
+
+	public static void getFatherNameinDanceClass() {
+		System.out.println("Second method" +StaticVariablePractice.fathername);
+
 	}
+
+	public static void getFatherNameinTutionClass() {
+		System.out.println("Second method" + fathername);
+
+	}
+
 	public static void main(String[] args) {
-		StaticVariablePractice s1= new StaticVariablePractice();
-		s1.getFullName();
-		s1.getFullName2();
-		
-	}	
-	
+		 getFullName1() ;
+		getFatherNameinDanceClass();
+		getFatherNameinTutionClass();
+
+	}
+	// when static variable allocate memory?
+	// when class is loaded into JVM satic variable will allocate memory .
+	// How to identify static variable?
 }
 // static variables // class// method 
