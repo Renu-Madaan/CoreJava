@@ -48,6 +48,7 @@ public class RunTimeMainClass {
 		av1.brandname("mercedes", 9876);
 		av1.seat();
 		av1.speed();
+		av1.colour();
 		//
 		
 		
