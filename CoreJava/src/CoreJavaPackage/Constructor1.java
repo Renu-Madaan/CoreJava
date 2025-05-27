@@ -13,3 +13,5 @@ public class Constructor1 {// class name default constructor name should be same
 	}
 
 }
+// Constructor is a special type of method which has same name as class name and its return type is void .
+// ?? cons public/private/ static parameterized cons // how we use parameterized cons in bdd.
