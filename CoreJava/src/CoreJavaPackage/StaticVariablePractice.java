@@ -4,7 +4,7 @@ public class StaticVariablePractice {
 	public static String fathername = null;
 
 	public static void getFullName1() {
-		String firstname = "Tamanna";
+		String firstname = "Darshan";
 		String lastname = "Madaan";
 
 		String fullName = firstname + " " + lastname;
@@ -19,7 +19,7 @@ public class StaticVariablePractice {
 	}
 
 	public static void getFatherNameinTutionClass() {
-		System.out.println("Second method" + fathername);
+		System.out.println("Third  method" + fathername);
 
 	}
 

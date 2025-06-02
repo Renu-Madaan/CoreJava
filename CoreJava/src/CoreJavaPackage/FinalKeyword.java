@@ -21,10 +21,11 @@ public class FinalKeyword {
 }
 // Do we have multiple catch block in try catch block //yES 
 // final keyword can be used with variable,method and class
-// Final cannot be a parent class.
+// Final class cannot be a parent of any  class.i Mean it can not be inherited .
+//** During compilation it restricts inheritence and reassignment
 //when a method a final that cannot be override
 //when a variable is final that cannot be changed during execution.
 // if exception does not come , then catch would not used.
 // we use finally in try catch block. there is a single finally block in try catch block and finally block always excute
 // In finally block we write the code to release used resources example close database connection and any file.
-// fianlize is a method od garbage colletor which is used for release the momery
+// fianlize is a method called by garbage colletor(Before object deletion) which is used for release the momery.

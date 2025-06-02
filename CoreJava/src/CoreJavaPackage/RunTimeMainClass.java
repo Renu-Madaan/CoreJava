@@ -70,14 +70,19 @@ public class RunTimeMainClass {
 			    p1.sum(1, 23, 80);
 			    
 			    //Java provides a default constructor if you don't define any.
-			    	 DefaultConstructor myCar = new  DefaultConstructor();  // Constructor is called here
+			    
+					Constructor2 c2 = new Constructor2();// 
+					Constructor1 c1 = new Constructor1();// no need to create constructor
+					c1.display();
+
+				}  // Constructor is called here
 			    }
 			
 			    
 			    
 	
 
-			  }
+			  
 		
 		
 		

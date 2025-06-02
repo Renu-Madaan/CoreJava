@@ -17,6 +17,4 @@ System.out.println("File uploaded successfully");
 	}}
 
 
-//finally keyword is used in a try catch block statement to specify a block of code which gets executed regardless of
-//whether the exception is thrown or not thrown.
-
+// 
