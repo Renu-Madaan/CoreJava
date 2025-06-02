@@ -1,17 +1,22 @@
 package CoreJavaPackage;
 
 public class Constructor1 {// class name default constructor name should be same 
-	
+	int a; String b; boolean c;
 	Constructor1()
 	{
-		System.out.println(" This is default constructor");
+//		a=123;b="Tamanna";c=true;
+		
+		//System.out.println(" This is default constructor");
+	}
+	void display()
+	{
+		System.out.println("a" +"  "+ a +"   "+ "b"+"   " +b + "   "+"c"+"  "+c);
 	}
 	
-	public static void main(String[] args) {
-		Constructor1 c1 = new Constructor1();// no need to create constructor
-
-	}
+	
 
 }
 // Constructor is a special type of method which has same name as class name and its return type is void .
+// constructors are declared public so that objects of the class can be created from outside 
+// constructors can also be declared protected or private to restrict object creation.
 // ?? cons public/private/ static parameterized cons // how we use parameterized cons in bdd.
